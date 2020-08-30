@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/map"
+            android:title="여행지도"
+            />
+        <item
+            android:id="@+id/story"
+            android:title="스토리여행" />
+        <item
+            android:id="@+id/recommend"
+            android:title="추천코스 ON" />
+        <item
+            android:id="@+id/festivel"
+            android:title="축제행사" />
+        <item
+            android:id="@+id/coupon"
+            android:title="E-쿠폰" />
+        <item
+            android:id="@+id/month"
+            android:title="월간한옥마을" />
+    </group>
+
+</menu>

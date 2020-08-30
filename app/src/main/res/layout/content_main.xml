@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--상단 공백-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        android:background="#00FFFF"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="공백"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <!--이벤트 str-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:paddingLeft="15dp"
+            android:text="[이벤트] 앱 오픈 여행지도 무료"
+            android:textSize="20dp"
+            android:id="@+id/content_head"
+            />
+
+    </LinearLayout>
+    <!--중간 web-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:id="@+id/webview_layout"
+        >
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <!--버튼 공간-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:weightSum="2.1"
+        android:id="@+id/mainmenu"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:layout_marginTop="15dp"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_1"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/main_icon_01"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/main_icon_02"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_3"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/main_icon_03"
+                style="?android:attr/borderlessButtonStyle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_4"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/main_icon_04"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/main_icon_05"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/main_btn_6"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/main_icon_06"
+                style="?android:attr/borderlessButtonStyle"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:weightSum="6"
+        android:background="#000000"
+        android:id="@+id/submenu"
+        android:visibility="gone"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_01"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_1"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_02"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_2"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_03"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_3"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_04"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_4"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_05"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_5"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sub_icon_06"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sub_btn_6"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
