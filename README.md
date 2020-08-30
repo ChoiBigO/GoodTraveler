@@ -28,6 +28,6 @@ https://play.google.com/store/apps/details?id=kr.co.insmart.goodtraveller
 5) 월간 한옥마을
 - 전주시에 승인을 얻어 한옥마을 내에 있는 상가들의 쿠폰을 제공한다.
 
-## 기능
+## 사용기술
 - Android Studio ( Platform )
 - PHP ( Server )
